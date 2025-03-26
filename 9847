@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة بسطّها للرياضيات</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        .page-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 30px;
+            color: #00aaff;
+        }
+        .category-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .category-box {
+            background-color: #ffffff;
+            border-radius: 10px;
+            width: 200px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .category-box:hover {
+            transform: scale(1.05);
+        }
+        .category-link {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            display: block;
+            text-align: center;
+        }
+        .category-link:hover {
+            color: #00aaff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="page-title">منصة بسطّها للرياضيات</h1>
+
+    <img src="image.jpg" alt="Image" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;">
+
+    <h2 class="sub-title">اختر القسم الذي ترغب في دراسته:</h2>
+
+    <div class="category-container">
+        <div class="category-box">
+            <a href="shoroohat.html" class="category-link">
+                <h3>الشروحات</h3>
+            </a>
+        </div>
+        <div class="category-box">
+            <a href="summaries.html" class="category-link">
+                <h3>الملخصات</h3>
+            </a>
+        </div>
+        <div class="category-box">
+            <a href="books.html" class="category-link">
+                <h3>الكتب الدراسية</h3>
+            </a>
+        </div>
+        <div class="category-box">
+            <a href="tests.html" class="category-link">
+                <h3>نماذج الاختبارات</h3>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
