@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الملخصات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 class="page-title">الملخصات الدراسية</h1>
+
+    <div class="category-container">
+        <div class="category-box">
+            <a href="summaries-1.html" class="category-link">
+                <h3>أولى ثانوي</h3>
+            </a>
+        </div>
+        <div class="category-box">
+            <a href="summaries-2.html" class="category-link">
+                <h3>ثانية ثانوي</h3>
+            </a>
+        </div>
+        <div class="category-box">
+            <a href="summaries-3.html" class="category-link">
+                <h3>ثالثة ثانوي</h3>
+            </a>
+        </div>
+    </div>
+
+    <a href="index.html" id="back-btn">العودة إلى الصفحة الرئيسية</a>
+
+</body>
+</html>
